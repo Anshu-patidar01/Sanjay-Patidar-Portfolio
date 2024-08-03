@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+@layer base{
+  :root{
+    --text-light:#002e47;
+    --bgouter-light:#98c2db;
+    --bginner-light:#70a4c2;
+    --text-dark:#d6f0ff;
+    /* --bgouter-dark:#07151c; */
+    --bgouter-dark:#171e35;
+    /* --bginner-dark:#052d41; */
+    --bginner-dark:#070f33;
+    --shad:#50798f;
+    --shadhover:#234c61;
+  }
+}
+
+body{
+  color: #9ec0ff;
+  background-color: black;
+}
+
+.custom__bg-button_color{
+background: linear-gradient(90deg, #8b1fbe 11%, #de9a33 100%);
+}

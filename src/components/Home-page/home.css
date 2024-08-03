@@ -1,0 +1,10 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cuestom__text-head{
+      background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  font: 900;
+}
