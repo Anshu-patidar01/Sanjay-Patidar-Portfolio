@@ -47,10 +47,17 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="flex justify-center items-center text-sm  text-Normal-light dark:text-Normal-dark">
+          <div className="flex justify-center items-center text-sm gap-2 text-Normal-light dark:text-Normal-dark">
             <p>Copyright </p>
             <FaRegCopyright />
             <p>2024</p>
+            <a
+              className=" text-slate-100 dark:text-sky-300 cursor-pointer"
+              href="https://persional-portfolio-mocha.vercel.app/"
+            >
+              {" "}
+              Developed By: Anshu Patidar
+            </a>
           </div>
         </div>
       </div>
